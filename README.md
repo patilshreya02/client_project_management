@@ -6,14 +6,12 @@ Task Details
 Entities: User, Client, Project.
 # APIs Implemented:
 # Clients:
-List all clients (GET /clients/)
-Register a new client (POST /clients/)
-Retrieve client info with projects (GET /clients/:id)
-Update client info (PUT/PATCH /clients/:id)
-Delete a client (DELETE /clients/:id)
-# Projects:
-Add a new project for a client and assign users (POST /clients/:id/projects/)
-List all projects assigned to the logged-in user (GET /projects/)
+1. List all clients (GET /clients/)
+2. Register a new client (POST /clients/)
+3. Retrieve client info with projects (GET /clients/:id)
+4. Update client info (PUT/PATCH /clients/:id)
+5. Delete a client (DELETE /clients/:id)
+
 # Key Considerations
 1. The system supports multiple users and clients.
 

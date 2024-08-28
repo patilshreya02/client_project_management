@@ -15,6 +15,8 @@ Delete a client (DELETE /clients/:id)
 Add a new project for a client and assign users (POST /clients/:id/projects/)
 List all projects assigned to the logged-in user (GET /projects/)
 # Key Considerations
-The system supports multiple users and clients.
-Clients can have multiple projects.
-Projects can be assigned to multiple users.
+1. The system supports multiple users and clients.
+
+2. Clients can have multiple projects.
+
+3. Projects can be assigned to multiple users.
